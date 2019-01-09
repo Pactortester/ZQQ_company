@@ -13,12 +13,12 @@ class LoginPage:
 
     url = "https://www.zhiqianqiu.com/"
 
-    cookie = ({'value': 's%3AWeOyzawTlFeEIaQ5HZkjqFb5sPLE9V5D.mZZ1fd2hXs34%2BhcrylsTyoBwKTogxPpe8OhFb6R%2BxTk',
-               'expiry': 1546948936.466544,
+    cookie = ({'value': 's%3AVwneJ-UEOj0eeRNuSOUsn7P10ozkVrIq.6oPjCm4XgEuwEvwScDqXZacnCyTTmRi0AgPEtJ2UAl4',
+               'expiry': 1862620474.690297,
                'domain': 'www.zhiqianqiu.com',
-               'httpOnly': True,
+               # 'httpOnly': True,
                'name': 'connect.sid',
-               'secure': False,
+               # 'secure': False,
                'path': '/'})
 
     def __init__(self, driver):
