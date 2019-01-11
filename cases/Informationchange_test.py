@@ -40,7 +40,7 @@ class InformationChange(MyTestCase):
     def test_bf(self):
         """补发商标注册证申请"""
         xm = BasePage(self.driver)
-        xm.trade_name("补发商标注册证申请", "补发商标注册证申请_专注于商标查询、专利查询-知千秋官网", "test_bf.png")
+        xm.trade_name("补发商标注册证申请", "补发商标注册证_专注于商标查询、专利查询-知千秋官网", "test_bf.png")
 
     def test_cj(self):
         """出具商标注册证明申请"""

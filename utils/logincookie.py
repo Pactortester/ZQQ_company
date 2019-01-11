@@ -13,7 +13,7 @@ class LoginPage:
 
     url = "https://www.zhiqianqiu.com/"
 
-    cookie = ({'value': 's%3AVwneJ-UEOj0eeRNuSOUsn7P10ozkVrIq.6oPjCm4XgEuwEvwScDqXZacnCyTTmRi0AgPEtJ2UAl4',
+    cookie = ({'value': 's%3A8hNmt0PGXXkZOiKm85dMi7XTJoPyZm6Q.l%2BGU0nTNtMN2p4V7%2FXl49I7Q2j27loylP5FmVOpjGFU',
                'expiry': 1862620474.690297,
                'domain': 'www.zhiqianqiu.com',
                # 'httpOnly': True,

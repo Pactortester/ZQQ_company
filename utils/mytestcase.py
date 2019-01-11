@@ -30,7 +30,7 @@ class MyTestCase(unittest.TestCase):
         self.logger.info('############################### START ###############################')
         # chrome_options = Options()
         # chrome_options.add_argument('--headless')
-        # self.driver = webdriver.Chrome(options=chrome_options,executable_path=driver_path + "\\" + "chromedriver.exe")
+        # self.driver = webdriver.Chrome(options=chrome_options, executable_path=driver_path + "\\" + "chromedriver.exe")
         self.driver = webdriver.Chrome(driver_path + "\\" + "chromedriver.exe")
         self.driver.maximize_window()
         self.driver.set_window_size(1920,1080)
@@ -40,7 +40,6 @@ class MyTestCase(unittest.TestCase):
         time.sleep(2)
         self.driver.quit()
         self.logger.info('###############################  END  ###############################')
-
 
     @staticmethod
     def my_print(msg):
