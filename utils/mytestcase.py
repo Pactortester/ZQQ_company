@@ -38,7 +38,7 @@ class MyTestCase(unittest.TestCase):
 
     def tearDown(self):
         time.sleep(2)
-        self.driver.quit()
+        # self.driver.quit()
         self.logger.info('###############################  END  ###############################')
 
     @staticmethod

@@ -5,6 +5,7 @@
 # @FileName: legalservice_test.py
 # @Software: PyCharm
 # @Blog    : https://blog.csdn.net/flower_drop
+import time
 
 from utils.mytestcase import MyTestCase
 from base.TrademarkBusiness import BasePage
@@ -42,6 +43,8 @@ class LegalService(MyTestCase):
         """商标无效宣告"""
         xm = BasePage(self.driver)
         xm.trade_name("商标无效宣告", "商标无效宣告申请_专注于商标查询、专利查询-知千秋官网", "test_wx.png")
+
+
 
 
 
